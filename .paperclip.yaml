@@ -2,25 +2,48 @@ schema: paperclip/v1
 agents:
   ceo:
     adapter:
-      type: claude_local
+      type: opencode_local
+      config:
+        model: omniroute/auto/best-free
   sales-lead:
     adapter:
-      type: claude_local
+      type: opencode_local
+      config:
+        model: omniroute/auto/best-free
   deals-lead:
     adapter:
-      type: claude_local
+      type: opencode_local
+      config:
+        model: omniroute/auto/best-free
   marketing-lead:
     adapter:
-      type: claude_local
+      type: opencode_local
+      config:
+        model: omniroute/auto/best-free
   operations-lead:
     adapter:
-      type: claude_local
+      type: opencode_local
+      config:
+        model: omniroute/auto/best-free
   intelligence-lead:
     adapter:
-      type: claude_local
+      type: opencode_local
+      config:
+        model: omniroute/auto/best-free
   customer-lead:
     adapter:
-      type: claude_local
+      type: opencode_local
+      config:
+        model: omniroute/auto/best-free
   backoffice-lead:
     adapter:
-      type: claude_local
+      type: opencode_local
+      config:
+        model: omniroute/auto/best-free
+  hermes-operator:
+    adapter:
+      type: hermes_gateway
+      config:
+        hermesGatewayApiBaseUrl: http://172.23.80.1:<HERMES_DASHBOARD_PORT>
+        hermesAgentId: hermes-primary
+        # hermesConfigApiKey: set in the Paperclip UI after import (do not commit)
