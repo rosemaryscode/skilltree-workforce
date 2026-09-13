@@ -6,7 +6,7 @@ slug: payment-tracking
 assignee: backoffice-lead
 schedule:
   timezone: America/Chicago
-  startsAt: 2026-09-13T09:00:00-05:00
+  startsAt: 2026-09-14T09:00:00-05:00
   recurrence:
     frequency: daily
     interval: 1

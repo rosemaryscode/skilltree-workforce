@@ -44,6 +44,6 @@ agents:
     adapter:
       type: hermes_gateway
       config:
-        hermesGatewayApiBaseUrl: http://172.23.80.1:<HERMES_DASHBOARD_PORT>
-        hermesAgentId: hermes-primary
-        # hermesConfigApiKey: set in the Paperclip UI after import (do not commit)
+        apiBaseUrl: http://172.23.80.1:<HERMES_API_PORT>
+        sessionKeyStrategy: issue
+        # apiKey: Hermes API_SERVER_KEY - set in the Paperclip UI after import (secret, do not commit)
