@@ -1,0 +1,26 @@
+schema: paperclip/v1
+agents:
+  ceo:
+    adapter:
+      type: claude_local
+  sales-lead:
+    adapter:
+      type: claude_local
+  deals-lead:
+    adapter:
+      type: claude_local
+  marketing-lead:
+    adapter:
+      type: claude_local
+  operations-lead:
+    adapter:
+      type: claude_local
+  intelligence-lead:
+    adapter:
+      type: claude_local
+  customer-lead:
+    adapter:
+      type: claude_local
+  backoffice-lead:
+    adapter:
+      type: claude_local
